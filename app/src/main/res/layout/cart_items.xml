@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ticketImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true" />
+
+        <TextView
+            android:id="@+id/ticketTitle"
+            style="@style/ItemDetailText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ticketImage"
+            android:padding="5dp"
+            android:text="@string/ticketName"
+            android:textColor="?android:textColorSecondary"
+            android:layout_centerHorizontal="true"/>
+
+
+        <TextView
+            android:id="@+id/ticketDetail"
+            style="@style/ItemDetailText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ticketTitle"
+            android:padding="5dp"
+            android:text="@string/ticketDetail" />
+
+        <TextView
+            android:id="@+id/concertDate"
+            style="@style/ItemDetailText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ticketDetail"
+            android:padding="5dp"
+            android:text="@string/concertDate"
+            android:layout_centerHorizontal="true"/>
+
+        <LinearLayout
+            android:id="@+id/cart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/concertDate"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+        <TextView
+            android:id="@+id/cartamount"
+            style="@style/ItemDetailText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/amount" />
+            <TextView
+                android:id="@+id/cartamountcount"
+                style="@style/ItemDetailText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/amountcount" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/price"
+            style="@style/ItemDetailText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cart"
+            android:layout_marginBottom="10dp"
+            android:padding="5dp"
+            android:textColor="@color/red"
+            android:layout_centerHorizontal="true"/>
+
+        <Button
+            android:id="@+id/delete_from_cart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/price"
+            android:text="@string/delete_from_cart"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

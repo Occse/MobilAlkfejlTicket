@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "675117673064",
+    "project_id": "concertticketshop",
+    "storage_bucket": "concertticketshop.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:675117673064:android:97e3a9fdfbdb931cb3a9dd",
+        "android_client_info": {
+          "package_name": "com.example.mobilalk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "675117673064-bhj3toft706e2e47dakegfek7caln0i1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mobilalk",
+            "certificate_hash": "0f6464f15890d0e5a73b66aea54180658d3dcb8d"
+          }
+        },
+        {
+          "client_id": "675117673064-l9l37apkttri2thdsi0474772rs9v8or.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBntoCqI_5vVV3slmaWbk-M6kl9VC3wIZI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "675117673064-l9l37apkttri2thdsi0474772rs9v8or.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
